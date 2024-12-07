@@ -1,0 +1,47 @@
+DGS004
+null 0 0
+an S xyz:0,8,0
+an P1 xyz:-4,6,0
+an P2 xyz:0,6,0
+an P3 xyz:4,6,0
+an PC1 xyz:-3,4,0
+an PC2 xyz:3,4,0
+an C1 xyz:-4,2,0
+an C2 xyz:-2,2,0
+an C3 xyz:2,2,0
+an C4 xyz:4,2,0
+an J1 xyz:-2,5,0
+an J2 xyz:2,5,0
+an J3 xyz:0,3,0
+an J4 xyz:4,3,0
+an P xyz:0,0,0
+
+ae e1 S > P1 cap=7
+ae e2 S > P2 cap=7
+ae e3 S > P3 cap=8
+ae e4 S > PC1 cap=0
+ae e5 S > PC2 cap=0
+
+ae e6 P1 > J1 cap=7
+ae e7 P2 > J1 cap=5
+ae e8 P2 > J2 cap=5
+ae e9 P3 > J2 cap=8
+ae e10 J1 > PC1 cap=2
+ae e11 J1 > J3 cap=2
+ae e12 J1 > PC2 cap=5
+ae e13 J2 > PC2 cap=3
+ae e14 J2 > J4 cap=6
+ae e15 J2 > C3 cap=2
+ae e16 PC1 > C1 cap=2
+ae e17 PC2 > J3 cap=4
+ae e18 J3 > C1 cap=2
+ae e19 J3 > C2 cap=4
+ae e20 J3 > C3 cap=2
+ae e21 J4 > C3 cap=2
+ae e22 J4 > C4 cap=3
+ae e23 C1 > P cap=5
+ae e24 C2 > P cap=4
+ae e25 C3 > P cap=5
+ae e26 C4 > P cap=3
+ae e27 PC1 > P cap=2
+ae e28 PC2 > P cap=2
